@@ -6,6 +6,10 @@ suite_d: "Charlie Chaplin",
 suite_e: "Crumpet the Elf"
 }
 
+
 def select_winner(passengers)
-  return passengers['suite_a'] if passengers['suite_a'].start_with?("A")
+  pass = passengers[:suite_a].upcase
+  puts pass
+  return pass if pass[0] == 'A'
+
 end
