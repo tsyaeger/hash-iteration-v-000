@@ -7,5 +7,5 @@ suite_e: "Crumpet the Elf"
 }
 
 def select_winner(passengers)
-  return passengers['suite_a'] if passengers['suite_a'].startswith == 'A'
+  return passengers['suite_a'] if passengers['suite_a'].startwith("A")
 end
