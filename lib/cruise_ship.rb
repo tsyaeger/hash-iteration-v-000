@@ -8,8 +8,8 @@ suite_e: "Crumpet the Elf"
 
 
 def select_winner(passengers)
-  pass = passengers[:suite_a].upcase
+  pass = passengers[:suite_a]
   puts pass
-  return pass if pass[0] == 'A'
+  return pass if pass[0].upcase == 'A'
 
 end
